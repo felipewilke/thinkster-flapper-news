@@ -2,3 +2,5 @@ curl -X PUT http://localhost:3000/posts/56aa51bc3157476c1daaeb0b/upvote
 
 
 curl --data 'body=test&author=user' http://localhost:3000/posts/56aa51bc3157476c1daaeb0b/comments
+
+curl -X PUT http://localhost:3000/posts/56aa51bc3157476c1daaeb0b/comments/56aa5f8bf7ca2ab920b18b0e/upvote
