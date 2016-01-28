@@ -19,5 +19,9 @@ function($scope){
 	$scope.title = '';
   };
 
+  $scope.incrementUpvotes = function(post) {
+  	post.upvotes += 1;
+  };
+
 }]);
 
